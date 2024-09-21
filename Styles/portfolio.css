@@ -1,48 +1,57 @@
-body{
-    // <uniquifier>: Use a unique and descriptive class name
+body {
+  .open-sans-uniquifier {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+}
 
-.open-sans-<uniquifier> {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+.nav-title {
+  color: black;
+  font-size: 45px;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-weight: 800;
 }
+.header {
+  background-color: light-bisque;
 }
-nav>ul{
-    display: flex;
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
 }
-nav li{
-    list-style: none;
-    margin-right: 50px;
-}
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-nav a{
-    text-decoration: none;
-    color: black;
-}
-.text-primary{
-    color: #FD6E0A;
-}
-
-.btn-primary{
-    border-radius: 5px;
-    background: #FD6E0A;
-    border: 0;
-    font-size: 20px;
-    color: white;
-    font-weight: 700;
-    padding: 15px 35px;
-}
-.nav-title{
-   color: black;
-   font-size: 45px;
-   font-style: normal;
-   font-weight: 800;
-
+.banner .profile-picture {
+  width: 500px;
 }
