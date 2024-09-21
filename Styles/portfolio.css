@@ -47,11 +47,49 @@ nav a {
 }
 .header {
   background-color: light-bisque;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .banner {
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
+  justify-content: space-between;
 }
 .banner .profile-picture {
   width: 500px;
+}
+.banner-title {
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+.banner-description {
+  margin-top: 0;
+}
+.banner-content {
+  max-width: 500px;
+}
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0px;
+}
+.section-title {
+  color: black;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
 }
